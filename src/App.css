@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+#root {
+  height: 100%;
+}
+
+.App {
+  text-align: center; 
+  background-color: #0D1117;
+  min-height: 100vh;  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;
+  color: #93a3b8;
+  
+}
+
+.container {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 0;
+  padding-bottom: 20px;  
+}
+
+.content {
+  text-align: center;
+  width: 100%;
+  padding: 30px 50px 30px 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #151B23;
+  border: 1px solid #3D444D;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 70%;
+  font-size: 14px;
+  color: #04b1b1;
+  background-color: #3D444D;
+  border: 1px solid #525c68;
+}
+
+.add-button {
+  padding: 10px;
+  width: 18%;
+  font-size: medium;
+  color: #7d8d86;
+  background-color: #0D1117;
+  border: 1px solid #183D3D;
+  cursor: pointer;
+}
+
+.filter-button {
+  padding: 10px;
+  margin: 0;
+  width: 18%;
+  font-size: medium;
+  color: #3D444D;
+  background-color: #0D1117;
+  border: 1px solid #3D444D;
+  cursor: pointer;
+}
+
+.filter-button.active {
+  background-color: #21272F;
+  border: 1px solid #3D444D;
+  color: #04b1b1;
+}
+
+.filter-button:hover {
+  color: #04b1b1;
+  background-color: #21272F;
+  border: 1px solid #3D444D;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+button:hover {
+  color: #04b1b1;
+}
+
+button .fa-trash {
+  color: #f564a0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #3D444D;  
+  border-bottom: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;  
+  padding: 20px;
+  color: #04b1b1;
+  border-radius: 10px;
+  background-color: #21272F;
+  border-bottom: 1px solid #3D444D;
+}
+
+li:hover {
+  background-color: #303944;
+}
+
+li span {
+  cursor: pointer;
+}
